@@ -1,1 +1,124 @@
 @import "~normalize.css/normalize";
+
+$header-font: "Source Sans Pro", sans-serif;
+$link-font: "Source Sans Pro", sans-serif;
+$body-font: Helvetica, sans-serif;
+$body-gutter: 2em;
+$body-max-width: 48em;
+$body-background: #eed;
+$ml-text-width: 80%;
+$mq-ml: $body-max-width + 2 * $body-gutter;
+$mq-sm: 40em;
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../../node_modules/source-sans-pro/WOFF2/TTF/SourceSansPro-Bold.ttf.woff2') format('woff2'),
+         url('../../node_modules/source-sans-pro/WOFF/OTF/SourceSansPro-Bold.otf.woff') format('woff'),
+         url('../../node_modules/source-sans-pro/OTF/SourceSansPro-Bold.otf') format('opentype'),
+         url('../../node_modules/source-sans-pro/TTF/SourceSansPro-Bold.ttf') format('truetype');
+}
+
+// Basics
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+// Layout
+body {
+    margin-top: 12em;
+    margin-bottom: $body-gutter;
+    max-width: $body-max-width;
+    margin-left: $body-gutter;
+    margin-right: $body-gutter;
+
+    @media screen and (min-width: $mq-ml) { 
+        & {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    background: $body-background url('../img/certhub-logo.svg') no-repeat;
+    background-position: center 2em;
+    background-size: auto 8em;
+
+    @media screen and (min-width: $mq-sm) { 
+        & {
+            margin-top: $body-gutter;
+            background-position: $ml-text-width 2em;
+            background-size: 100% - $ml-text-width;
+        }
+    }
+}
+
+h1, h2, h3, h4, h5, h6, p, nav {
+    @media screen and (min-width: $mq-ml) { 
+        & {
+            width: $ml-text-width;
+        }
+    }
+}
+
+.slogan {
+    margin-bottom: 2em;
+}
+
+// Fonts
+body {
+    font: 100% $body-font;
+}
+
+h1, h2, h3, h4, h5, h6, .slogan {
+    font-family: $header-font;
+    font-weight: 700;
+    text-align: center;
+
+    @media screen and (min-width: $mq-sm) { 
+        & {
+            text-align: left;
+        }
+    }
+}
+
+a {
+    font-family: $link-font;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 96%;
+
+    &:hover, &:active, &:visited {
+        color: black;
+    }
+}
+
+// Icons
+nav {
+    display: flex;
+    justify-content: space-around;
+
+
+    .icon-octocat {
+        display: block;
+        background: url("../img/icon-octocat.svg") no-repeat;
+        background-position: center top;
+        background-size: 3em 3em;
+        padding-top: 3.2em;
+    }
+
+    .icon-manual {
+        display: block;
+        background: url("../img/icon-manual.svg") no-repeat;
+        background-position: center top;
+        background-size: 3em 3em;
+        padding-top: 3.2em;
+    }
+}
