@@ -2,11 +2,12 @@
   "name": "certhub-website",
   "scripts": {
     "build": "parcel build -d . src/index.html",
-    "serve": "parcel serve -d scratch src/index.html"
+    "serve": "parcel -d scratch src/index.html"
   },
   "devDependencies": {
     "node-sass": "^4.11.0",
     "normalize.css": "^8.0.1",
-    "parcel": "^1.11.0"
+    "parcel": "^1.11.0",
+    "source-sans-pro": "^2.45.0"
   }
 }
