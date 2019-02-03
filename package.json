@@ -1,7 +1,7 @@
 {
-  "name": "certhub-website",
+  "name": "certhub.io",
   "scripts": {
-    "build": "parcel build -d . src/index.html",
+    "build": "parcel build -d docs src/index.html",
     "serve": "parcel -d scratch src/index.html"
   },
   "devDependencies": {
