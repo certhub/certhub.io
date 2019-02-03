@@ -5,9 +5,12 @@
     "serve": "parcel -d scratch src/index.html"
   },
   "devDependencies": {
+    "autoprefixer": "^9.4.7",
     "node-sass": "^4.11.0",
     "normalize.css": "^8.0.1",
     "parcel": "^1.11.0",
+    "postcss": "^7.0.14",
+    "postcss-preset-env": "^6.5.0",
     "source-sans-pro": "^2.45.0"
   }
 }
