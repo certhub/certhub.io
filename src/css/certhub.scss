@@ -45,7 +45,7 @@ body {
         }
     }
 
-    background: $body-background url('../img/certhub-logo.svg') no-repeat;
+    background: $body-background svg-load('../img/certhub-logo.svg') no-repeat;
     background-position: center 2em;
     background-size: auto 8em;
 
@@ -108,7 +108,7 @@ nav {
 
     .icon-octocat {
         display: block;
-        background: url("../img/icon-octocat.svg") no-repeat;
+        background: svg-load("../img/icon-octocat.svg") no-repeat;
         background-position: center top;
         background-size: 3em 3em;
         padding-top: 3.2em;
@@ -116,7 +116,7 @@ nav {
 
     .icon-manual {
         display: block;
-        background: url("../img/icon-manual.svg") no-repeat;
+        background: svg-load("../img/icon-manual.svg") no-repeat;
         background-position: center top;
         background-size: 3em 3em;
         padding-top: 3.2em;
