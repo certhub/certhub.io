@@ -12,6 +12,7 @@
     "postcss": "^7.0.14",
     "postcss-inline-svg": "^3.1.1",
     "postcss-preset-env": "^6.5.0",
+    "sass": "^1.17.3",
     "source-sans-pro": "^2.45.0"
   }
 }
