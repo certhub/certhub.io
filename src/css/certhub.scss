@@ -105,10 +105,19 @@ nav {
     display: flex;
     justify-content: space-around;
 
+    text-align: center;
 
     .icon-octocat {
         display: block;
         background: svg-load("../img/icon-octocat.svg") no-repeat;
+        background-position: center top;
+        background-size: 3em 3em;
+        padding-top: 3.2em;
+    }
+
+    .icon-docker {
+        display: block;
+        background: svg-load("../img/icon-docker.svg") no-repeat;
         background-position: center top;
         background-size: 3em 3em;
         padding-top: 3.2em;
