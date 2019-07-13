@@ -1,17 +1,17 @@
 {
   "name": "certhub.io",
   "scripts": {
-    "build": "parcel build -d docs src/index.html",
+    "build": "parcel build --no-cache -d docs src/index.html",
     "serve": "parcel -d scratch src/index.html"
   },
   "devDependencies": {
-    "autoprefixer": "^9.5.1",
-    "node-sass": "^4.11.0",
+    "autoprefixer": "^9.6.1",
+    "node-sass": "^4.12.0",
     "normalize.css": "^8.0.1",
     "parcel-bundler": "^1.12.3",
-    "postcss": "^7.0.16",
-    "postcss-inline-svg": "^3.1.1",
-    "postcss-preset-env": "^6.6.0",
+    "postcss": "^7.0.17",
+    "postcss-inline-svg": "^4.1.0",
+    "postcss-preset-env": "^6.7.0",
     "source-sans-pro": "^2.45.0"
   }
 }
