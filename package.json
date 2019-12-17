@@ -5,10 +5,10 @@
     "serve": "parcel -d scratch src/index.html"
   },
   "devDependencies": {
-    "autoprefixer": "^9.6.5",
+    "autoprefixer": "^9.7.3",
     "normalize.css": "^8.0.1",
     "parcel-bundler": "^1.12.4",
-    "postcss": "^7.0.18",
+    "postcss": "^7.0.25",
     "postcss-inline-svg": "^4.1.0",
     "postcss-preset-env": "^6.7.0",
     "sass": "^1.23.7",
