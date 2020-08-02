@@ -1,13 +1,13 @@
 {
   "name": "certhub.io",
   "scripts": {
-    "build": "parcel build --no-cache -d docs src/index.html",
-    "serve": "parcel -d scratch src/index.html"
+    "build": "parcel build --no-cache --dist-dir docs src/index.html",
+    "serve": "parcel serve --dist-dir scratch src/index.html"
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "normalize.css": "^8.0.1",
-    "parcel-bundler": "^1.12.4",
+    "parcel": "^2.0.0-beta.1",
     "postcss": "^7.0.32",
     "postcss-inline-svg": "^4.1.0",
     "postcss-preset-env": "^6.7.0",
