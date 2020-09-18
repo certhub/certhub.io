@@ -7,11 +7,11 @@
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "normalize.css": "^8.0.1",
-    "parcel": "^2.0.0-beta.1",
-    "postcss": "^7.0.32",
+    "parcel": "^2.0.0-nightly.403",
+    "postcss": "^7.0.34",
     "postcss-inline-svg": "^4.1.0",
     "postcss-preset-env": "^6.7.0",
-    "sass": "^1.26.10",
+    "sass": "^1.26.11",
     "source-sans-pro": "^3.6.0"
   }
 }
