@@ -5,13 +5,13 @@
     "serve": "parcel serve --dist-dir scratch src/index.html"
   },
   "devDependencies": {
-    "autoprefixer": "^9.8.6",
+    "autoprefixer": "^10.0.2",
     "normalize.css": "^8.0.1",
-    "parcel": "^2.0.0-nightly.403",
-    "postcss": "^7.0.34",
-    "postcss-inline-svg": "^4.1.0",
+    "parcel": "^2.0.0-nightly.447",
+    "postcss": "^8.1.7",
+    "postcss-inline-svg": "^5.0.0",
     "postcss-preset-env": "^6.7.0",
-    "sass": "^1.26.11",
+    "sass": "^1.29.0",
     "source-sans-pro": "^3.6.0"
   }
 }
